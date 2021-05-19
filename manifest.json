@@ -1,0 +1,21 @@
+{
+
+  "manifest_version": 2,
+  "name": "Hypergate",
+  "version": "1.0",
+
+  "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "48": "icons/hypercore_48.png"
+  },
+
+  "permissions": [
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/hypercore_32.png",
+    "default_title": "Hypercore gateway",
+    "default_popup": "dist/index.html"
+  }
+}

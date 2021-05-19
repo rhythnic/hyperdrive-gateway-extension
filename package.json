@@ -1,0 +1,21 @@
+{
+  "name": "hypercore-gateway-extension",
+  "version": "0.0.1",
+  "description": "A browser extension that provides a UI for the hypercore gateway",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "snowpack build --watch",
+    "copy_assets": "cp -R node_modules/@shoelace-style/shoelace/dist/assets dist/shoelace/assets",
+    "build": "snowpack build && mkdir dist/shoelace && npm run copy_assets"
+  },
+  "keywords": [],
+  "author": "Nicholas Baroni",
+  "license": "MIT",
+  "dependencies": {
+    "@shoelace-style/shoelace": "*",
+    "lit": "*"
+  },
+  "devDependencies": {
+    "snowpack": "^3.4.0"
+  }
+}
