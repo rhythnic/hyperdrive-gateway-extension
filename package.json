@@ -1,7 +1,7 @@
 {
-  "name": "hypercore-gateway-extension",
+  "name": "hyperdrive-gateway-extension",
   "version": "0.0.1",
-  "description": "A browser extension that provides a UI for the hypercore gateway",
+  "description": "A browser extension that provides a UI for the hyperdrive gateway",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "snowpack build --watch",

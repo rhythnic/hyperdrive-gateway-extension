@@ -1,5 +1,5 @@
-# hypercore-gateway-extension
-A browser extension for interacting with [hypercore gateways](https://github.com/rhythnic/hypercore-gateway)
+# hyperdrive-gateway-extension
+A browser extension for interacting with [hyperdrive gateways](https://github.com/rhythnic/hyperdrive-gateway)
 
 ## Build
 
@@ -19,4 +19,4 @@ npm run build
 Click on the extension in the toolbar and enter a `hyper://` uri for a website distributed as a hyperdrive.
 Websites are able to use `hyper://` links for external pages and ECMAScript modules from other hyperdrives.
 
-![Hypercore gateway extension](/images/extension.png)
+![Hyperdrive gateway extension](/images/extension.png)

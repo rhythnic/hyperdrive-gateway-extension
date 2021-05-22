@@ -1,7 +1,7 @@
 {
 
   "manifest_version": 2,
-  "name": "Hypergate",
+  "name": "Hyperdrive Gateway",
   "version": "1.0",
 
   "description": "Adds a browser action icon to the toolbar. Click the button to choose a beast. The active tab's body content is then replaced with a picture of the chosen beast. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#beastify",
@@ -15,7 +15,7 @@
 
   "browser_action": {
     "default_icon": "icons/hypercore_32.png",
-    "default_title": "Hypercore gateway",
+    "default_title": "Hyperdrive Gateway",
     "default_popup": "dist/index.html"
   }
 }

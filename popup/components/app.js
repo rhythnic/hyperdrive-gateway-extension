@@ -39,10 +39,10 @@ export class App extends LitElement {
 
   openHyperdriveUri (event) {
     this.hyperdriveUri = event.detail.formData.get('uri');
-    const hypercoreGateWayUrl = 'http://localhost:8085/hyper';
+    const hyperdriveGateWayUrl = 'http://localhost:8085/hyper';
     const linkRegex = /hyper:\/\/([^ ]+)/;
     const hyperdriveGatewayUri = this.hyperdriveUri
-      .replace(linkRegex, (_, pubKeyAndPath) => `${hypercoreGateWayUrl}/${pubKeyAndPath}`)
+      .replace(linkRegex, (_, pubKeyAndPath) => `${hyperdriveGateWayUrl}/${pubKeyAndPath}`)
     window.open(hyperdriveGatewayUri, "_blank");
   }
 }
